@@ -17,7 +17,7 @@ The Operator pattern captures how you can write code to automate a task beyond w
 Unfortunately, operators are all too often wresting control away from the mere humans who would manage their own resources.
 Most Operators embed their logic in compiled container images.
 The typical human systems operator does not program in Go and does not have a container image build pipeline.
-Human application operators may have experince with builds, but often do not have cluster administrative rights required to deploy operators.
+Human application operators may have experience with builds, but often do not have cluster administrative rights required to deploy operators.
 
 Anarchy democratizes the potential of the Operator pattern by putting the operator logic in the operator configuration. Users write their own logic in Ansible, which requires little more programming experience than using a command line. Through configuration, the Ansible code is directly controlled at runtime to automate anything you can do in the cluster.
 Anarchy makes your cluster truly self-governing.
